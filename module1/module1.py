@@ -12,6 +12,13 @@ examples.
   bar = foo.public_method(required_variable, optional_variable=42)
 """
 
+import torch
+from torch import nn
+from torch.utils.data import DataLoader
+from torchvision import datasets
+from torchvision.transforms import ToTensor
+
+
 class SampleClass(object):
     """Summary of class here.
 
@@ -62,3 +69,5 @@ def function_name(required_variable, optional_variable=None):
     return None
 
     
+if __name__ == '__main__':
+    print(torch.cuda.is_available())

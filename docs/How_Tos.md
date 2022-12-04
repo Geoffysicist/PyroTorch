@@ -17,7 +17,7 @@ pip install package_name
 python -m venv .venv
 ```
 
-### Freeze a virtuak environment to a requirements.txt file
+### Freeze a virtual environment to a requirements.txt file
 ```
 pip freeze > requirements.txt
 ```
